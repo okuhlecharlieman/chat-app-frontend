@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import SignupModal2 from "./signupModal2";
-import Stepper from "./stepper";
+
+import Stepper2 from "./stepper2";
 
 function SignupModal() {
   // Define state variables to store form input values
@@ -25,16 +25,16 @@ function SignupModal() {
   return (
     <div>
       <article>
-        <label className="btn btn-outline-primary mx-1" htmlFor="modal-2">
-          Create account
+        <label className="btn btn-primary w-full" htmlFor="modal-3">
+          Sign up
         </label>
 
-        <input className="modal-state" id="modal-2" type="checkbox" />
+        <input className="modal-state" id="modal-3" type="checkbox" />
         <div className="modal">
-          <label className="modal-overlay" htmlFor="modal-2"></label>
+          <label className="modal-overlay" htmlFor="modal-3"></label>
           <div className="modal-content flex w-full flex-col gap-5 p-7">
             <label
-              htmlFor="modal-2"
+              htmlFor="modal-3"
               className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
             >
               ✕
@@ -44,7 +44,7 @@ function SignupModal() {
                 Create your account
               </h2>
               <div className="m-6">
-                <Stepper />
+                <Stepper2 />
               </div>
             </div>
 
@@ -79,25 +79,11 @@ function SignupModal() {
                     </div>
                   </div>
 
-                  <div className="form-field">
-                    <label className="form-label">
-                      <span>Confirm Password</span>
-                    </label>
-                    <div className="form-control">
-                      <input
-                        placeholder="Type here"
-                        type="password"
-                        className="input max-w-full"
-                        value={confirmPassword}
-                        onChange={(e) => setConfirmPassword(e.target.value)}
-                        required
-                      />
-                    </div>
-                  </div>
-
                   <div className="form-field pt-5">
                     <div className="form-control justify-between">
-                      <SignupModal2 />
+                      <button type="submit" className="btn btn-primary w-full">
+                        Modal 3
+                      </button>
                     </div>
                   </div>
                 </div>
