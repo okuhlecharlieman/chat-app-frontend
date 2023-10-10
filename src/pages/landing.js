@@ -21,7 +21,7 @@ function landing() {
               src="https://i.ibb.co/4WVMrFz/61-UMo7-Th97-L-AC-SX425.jpg"
               alt="61-UMo7-Th97-L-AC-SX425"
               border="0"
-              width={5}
+              width={20}
             ></img>
             ? Mark yourself as liberated.
           </h1>
