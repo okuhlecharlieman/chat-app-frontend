@@ -61,7 +61,10 @@ function signInModal() {
                       <a href="/"> Remember me</a>
                     </div>
                     <label class="form-label">
-                      <a href="/" class="link link-underline-hover link-primary text-sm">
+                      <a
+                        href="/"
+                        class="link link-underline-hover link-primary text-sm"
+                      >
                         Forgot your password?
                       </a>
                     </label>

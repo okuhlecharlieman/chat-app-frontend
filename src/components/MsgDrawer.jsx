@@ -1,4 +1,5 @@
 import React from "react";
+import Msgmenu from "./msgmenu";
 
 function MsgDrawer() {
   return (
@@ -25,6 +26,7 @@ function MsgDrawer() {
           <div>
             <h2 className="text-xl font-medium">Chat</h2>
             <input className="input py-1.5 my-3" placeholder="Type here..." />
+            <Msgmenu />
           </div>
           <div className="h-full flex flex-row justify-end items-end gap-2">
             <button className="btn btn-ghost">...</button>
