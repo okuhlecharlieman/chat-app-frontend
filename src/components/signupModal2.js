@@ -6,7 +6,6 @@ function SignupModal() {
   // Define state variables to store form input values
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [confirmPassword, setConfirmPassword] = useState("");
 
   // Function to handle form submission
   const handleSignup = (e) => {
