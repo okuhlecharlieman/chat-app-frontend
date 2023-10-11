@@ -12,10 +12,6 @@ function SignupModal() {
     e.preventDefault();
 
     // Check if the passwords match
-    if (password !== confirmPassword) {
-      alert("Passwords do not match. Please try again.");
-      return;
-    }
 
     // Handle the sign-up logic here, e.g., send a request to your API
     // with the email and password for registration.
