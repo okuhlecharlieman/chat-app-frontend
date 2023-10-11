@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
-import Stepper from "./stepper";
+import Stepper3 from "./stepper3";
 
-function SignupModal() {
+function SignupModal3() {
   // Define state variables to store form input values
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -25,16 +25,16 @@ function SignupModal() {
   return (
     <div>
       <article>
-        <label className="btn btn-outline-primary mx-1" htmlFor="modal-2">
-          Create account
+        <label className="btn btn-primary w-full" htmlFor="modal-4">
+          Next
         </label>
 
-        <input className="modal-state" id="modal-2" type="checkbox" />
+        <input className="modal-state" id="modal-4" type="checkbox" />
         <div className="modal">
-          <label className="modal-overlay" htmlFor="modal-2"></label>
+          <label className="modal-overlay" htmlFor="modal-4"></label>
           <div className="modal-content flex w-full flex-col gap-5 p-7">
             <label
-              htmlFor="modal-2"
+              htmlFor="modal-4"
               className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
             >
               ✕
@@ -44,7 +44,7 @@ function SignupModal() {
                 Create your account
               </h2>
               <div className="m-6">
-                <Stepper />
+                <Stepper3 />
               </div>
             </div>
 
@@ -98,7 +98,7 @@ function SignupModal() {
                   <div className="form-field pt-5">
                     <div className="form-control justify-between">
                       <button type="submit" className="btn btn-primary w-full">
-                        Sign up
+                        Submit
                       </button>
                     </div>
                   </div>
@@ -113,4 +113,4 @@ function SignupModal() {
   );
 }
 
-export default SignupModal;
+export default SignupModal3;

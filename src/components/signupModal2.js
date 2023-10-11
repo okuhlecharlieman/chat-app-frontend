@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import SignupModal3 from "./signupModal3";
 import Stepper2 from "./stepper2";
 
 function SignupModal() {
@@ -81,8 +81,8 @@ function SignupModal() {
 
                   <div className="form-field pt-5">
                     <div className="form-control justify-between">
-                      <button type="submit" className="btn btn-primary w-full">
-                        Modal 3
+                      <button className="w-full">
+                        <SignupModal3 />
                       </button>
                     </div>
                   </div>

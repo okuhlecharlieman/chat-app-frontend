@@ -97,7 +97,9 @@ function SignupModal() {
 
                   <div className="form-field pt-5">
                     <div className="form-control justify-between">
-                      <SignupModal2 />
+                      <button className="w-full">
+                        <SignupModal2 />
+                      </button>
                     </div>
                   </div>
                 </div>
