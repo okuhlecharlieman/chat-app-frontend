@@ -33,13 +33,19 @@ function navbar() {
                   tabIndex="0"
                 >
                   <img
-                    src="https://i.pravatar.cc/150?u=a042581f4e29026024d"
+                    src="https://i.ibb.co/2sfWLg3/IMG-20231018-WA0027.jpg"
                     alt="avatar"
                   />
                 </label>
                 <div className="dropdown-menu dropdown-menu-bottom-left">
-                  <a href="/home" className="dropdown-item text-sm">Profile</a>
-                  <a  href="/home" tabIndex="-1" className="dropdown-item text-sm">
+                  <a href="/home" className="dropdown-item text-sm">
+                    Profile
+                  </a>
+                  <a
+                    href="/home"
+                    tabIndex="-1"
+                    className="dropdown-item text-sm"
+                  >
                     Account settings
                   </a>
                   <div className="divider"></div>

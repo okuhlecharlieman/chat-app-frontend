@@ -5,11 +5,17 @@ function InviteFriends() {
     <>
       <div className="container mx-auto px-4 sm:px-8">
         <div className="py-8">
-          <div>
+          <div className="md:flex">
             <h2 className="text-2xl font-semibold leading-tight">
               Invite Friends
             </h2>
+            <div className="flex-grow"></div>
+            <input
+              className="input py-1.5 my-3"
+              placeholder="Find Friends..."
+            />
           </div>
+
           <div className="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
             <div className="inline-block min-w-full shadow-md rounded-lg overflow-hidden">
               <table className="min-w-full leading-normal">
