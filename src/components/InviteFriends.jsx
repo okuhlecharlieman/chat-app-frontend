@@ -30,7 +30,7 @@ function InviteFriends() {
                   <tr>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <div className="flex">
-                        <div className="flex-shrink-0 ">
+                        <div className="flex-shrink-0  w-6/12">
                           <img
                             className="w-full h-full "
                             src="https://source.unsplash.com/random/300x200"
@@ -66,7 +66,7 @@ function InviteFriends() {
                   <tr>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <div className="flex">
-                        <div className="flex-shrink-0 ">
+                        <div className="flex-shrink-0  w-6/12">
                           <img
                             className="w-full h-full "
                             src="https://source.unsplash.com/random/300x200"
@@ -102,7 +102,7 @@ function InviteFriends() {
                   <tr>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <div className="flex">
-                        <div className="flex-shrink-0 ">
+                        <div className="flex-shrink-0  w-6/12">
                           <img
                             className="w-full h-full "
                             src="https://source.unsplash.com/random/300x200"
@@ -138,7 +138,7 @@ function InviteFriends() {
                   <tr>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <div className="flex">
-                        <div className="flex-shrink-0 ">
+                        <div className="flex-shrink-0  w-6/12">
                           <img
                             className="w-full h-full "
                             src="https://source.unsplash.com/random/300x200"
@@ -174,7 +174,7 @@ function InviteFriends() {
                   <tr>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <div className="flex">
-                        <div className="flex-shrink-0 ">
+                        <div className="flex-shrink-0  w-6/12">
                           <img
                             className="w-full h-full "
                             src="https://source.unsplash.com/random/300x200"
@@ -210,7 +210,7 @@ function InviteFriends() {
                   <tr>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <div className="flex">
-                        <div className="flex-shrink-0 ">
+                        <div className="flex-shrink-0  w-6/12">
                           <img
                             className="w-full h-full "
                             src="https://source.unsplash.com/random/300x200"
