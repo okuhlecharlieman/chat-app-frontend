@@ -1,17 +1,28 @@
-import React from "react";
-import InputTest from "./inputTest";
+import React, { useState } from "react";
+import CreateGroup from "./CreateGroup";
+import JoinGroup from "./JoinGroup";
 import Menu from "./menu";
+import InviteFriends from "./InviteFriends";
 
 function Sidebar() {
+  const [selectedMenuItem, setSelectedMenuItem] = useState("invite"); // Initialize with a default value
+
+  const handleMenuItemClick = (menuItem) => {
+    setSelectedMenuItem(menuItem);
+  };
+
   return (
     <div>
       <div className="md:flex w-screen justify-center gap-1 m-6">
         <div className="w-full md:w-80 items-center justify-center">
-          <Menu />
+          <Menu onItemClick={handleMenuItemClick} />
         </div>
         <div className="hidden md:block divider divider-vertical mx-0 h-96"></div>
-        <div className="card max-w-full items-center justify-center md:my-0 my-4 max-h-screen">
-          <InputTest />
+        <div className="card max-w-full items-center justify-center md:my-0 my-4  overscroll-contain">
+          {/* a different component for a specific menu item */}
+          {selectedMenuItem === "invite" && <InviteFriends />}{" "}
+          {selectedMenuItem === "createGroup" && <CreateGroup />}{" "}
+          {selectedMenuItem === "joinGroup" && <JoinGroup />}{" "}
         </div>
       </div>
     </div>
