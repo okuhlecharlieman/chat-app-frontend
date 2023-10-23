@@ -25,7 +25,7 @@ function landing() {
               style={{
                 display: "inline-block",
                 verticalAlign: "middle",
-                borderRadius: "40%",
+                borderRadius: "50%",
               }}
             />{" "}
             ?
