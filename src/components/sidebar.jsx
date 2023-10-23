@@ -13,8 +13,8 @@ function Sidebar() {
 
   return (
     <div>
-      <div className="md:flex w-screen justify-center m-6">
-        <div className="w-full md:w-80 items-center justify-center">
+      <div className="md:flex w-screen justify-center mt-6">
+        <div className="w-full md:w-52 items-center justify-center">
           <Menu onItemClick={handleMenuItemClick} />
         </div>
         <div className="hidden md:block divider divider-vertical mx-0 h-96"></div>
