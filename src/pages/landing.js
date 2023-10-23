@@ -22,7 +22,11 @@ function landing() {
               alt="61-UMo7-Th97-L-AC-SX425"
               border="0"
               width={30}
-              style={{ display: "inline-block", verticalAlign: "middle" }}
+              style={{
+                display: "inline-block",
+                verticalAlign: "middle",
+                borderRadius: "10px",
+              }}
             />{" "}
             ?
           </h1>
