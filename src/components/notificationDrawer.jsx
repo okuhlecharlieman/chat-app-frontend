@@ -1,4 +1,5 @@
 import React from "react";
+import NotificationMenu from "./NotificationMenu";
 
 function notificationDrawer() {
   return (
@@ -24,6 +25,7 @@ function notificationDrawer() {
           </label>
           <div>
             <h2 className="text-xl font-medium">Notification</h2>
+            <NotificationMenu />
           </div>
           <div className="h-full flex flex-row justify-end items-end gap-2">
             <button className="btn btn-ghost">Cancel</button>

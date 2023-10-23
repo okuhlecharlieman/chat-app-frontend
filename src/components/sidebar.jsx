@@ -13,12 +13,12 @@ function Sidebar() {
 
   return (
     <div>
-      <div className="md:flex w-screen justify-center gap-1 m-6">
+      <div className="md:flex w-screen justify-center m-6">
         <div className="w-full md:w-80 items-center justify-center">
           <Menu onItemClick={handleMenuItemClick} />
         </div>
         <div className="hidden md:block divider divider-vertical mx-0 h-96"></div>
-        <div className="card max-w-full items-center justify-center md:my-0 my-4  overscroll-contain">
+        <div className="card max-w-4xl items-center justify-center md:my-0 my-4  overscroll-contain">
           {/* a different component for a specific menu item */}
           {selectedMenuItem === "invite" && <InviteFriends />}{" "}
           {selectedMenuItem === "createGroup" && <CreateGroup />}{" "}
