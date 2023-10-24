@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Admin from "./admin";
+import Admin from "../pages/AdminPortal";
 import Home from "./home";
 import Landing from "./landing";
 import SignInModal from "../components/signInModal";
