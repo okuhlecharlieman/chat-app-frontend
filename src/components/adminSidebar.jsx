@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import CreateGroup from "./CreateGroup";
-import JoinGroup from "./JoinGroup";
+import AdminProfiles from "./AdminProfiles";
 import Menu from "./AdminMenu";
 import InviteFriends from "./InviteFriends";
 
@@ -21,8 +21,7 @@ function Sidebar() {
         <div className="card max-w-4xl items-center justify-center md:my-0 my-4  overscroll-contain">
           {/* a different component for a specific menu item */}
           {selectedMenuItem === "invite" && <InviteFriends />}{" "}
-          {selectedMenuItem === "createGroup" && <CreateGroup />}{" "}
-          {selectedMenuItem === "joinGroup" && <JoinGroup />}{" "}
+          {selectedMenuItem === "Profiles" && <AdminProfiles />}{" "}
         </div>
       </div>
     </div>
