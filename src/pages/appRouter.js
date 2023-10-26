@@ -6,6 +6,7 @@ import Landing from "./landing";
 import SignInModal from "../components/signInModal";
 import JoinGroupPage from "./JoinGroupPage";
 import CreateGroup from "./CreateGroupPage";
+import Chat from "./Chat";
 
 const AppRouter = () => {
   return (
@@ -17,6 +18,7 @@ const AppRouter = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/home/Creategroup" element={<CreateGroup />} />
         <Route path="/home/joinGroup" element={<JoinGroupPage />} />
+        <Route path="/Chat" element={<Chat />} />
         <Route path="/signup" element={<SignInModal />} />
       </Routes>
     </Router>
