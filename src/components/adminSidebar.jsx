@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import CreateGroup from "./CreateGroup";
+
 import AdminProfiles from "./AdminProfiles";
 import Menu from "./AdminMenu";
 import InviteFriends from "./InviteFriends";
