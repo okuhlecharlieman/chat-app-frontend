@@ -4,6 +4,8 @@ import Admin from "../pages/AdminPortal";
 import Home from "./home";
 import Landing from "./landing";
 import SignInModal from "../components/signInModal";
+import JoinGroupPage from "./JoinGroupPage";
+import CreateGroup from "./CreateGroupPage";
 
 const AppRouter = () => {
   return (
@@ -13,6 +15,8 @@ const AppRouter = () => {
         {/* <Route path="*" element={<FOF />} /> */}
         <Route path="/admin" element={<Admin />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/home/Creategroup" element={<CreateGroup />} />
+        <Route path="/home/joinGroup" element={<JoinGroupPage />} />
         <Route path="/signup" element={<SignInModal />} />
       </Routes>
     </Router>

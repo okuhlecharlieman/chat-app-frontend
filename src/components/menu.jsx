@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Menu({ onItemClick }) {
   const handleMenuItemClick = (menuItem) => {
@@ -11,24 +12,27 @@ function Menu({ onItemClick }) {
         <section className="menu-section">
           <span className="menu-title">Main menu</span>
           <ul className="menu-items">
-            <li
+            <Link
+              to="/home"
               className="menu-item"
               onClick={() => handleMenuItemClick("invite")}
             >
               Invite Friend
-            </li>
-            <li
+            </Link>
+            <Link
+              to="/home/Creategroup"
               className="menu-item"
               onClick={() => handleMenuItemClick("createGroup")}
             >
               Create Group
-            </li>
-            <li
+            </Link>
+            <Link
+              to="/home/joinGroup"
               className="menu-item"
               onClick={() => handleMenuItemClick("joinGroup")}
             >
               Join Group
-            </li>
+            </Link>
           </ul>
         </section>
         <div className="divider my-0"></div>
