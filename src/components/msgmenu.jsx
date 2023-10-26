@@ -1,12 +1,12 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function msgmenu() {
   return (
     <div>
       <nav className="menu bg-gray-2 p-4 rounded-md">
         <section className="menu-section">
           <ul className="menu-items">
-            <li className="menu-item">
+            <Link to="/Chat" className="menu-item">
               <div className="avatar">
                 <img
                   src="https://i.pravatar.cc/150?u=a042581f4e29026024d"
@@ -14,8 +14,8 @@ function msgmenu() {
                 />
               </div>
               <span>Nozi</span>
-            </li>
-            <li className="menu-item">
+            </Link>
+            <Link className="menu-item">
               <div className="avatar avatar-ring-success">
                 <img
                   src="https://i.pravatar.cc/150?u=a042581f4e29026024d"
@@ -23,7 +23,7 @@ function msgmenu() {
                 />
               </div>
               <span>Khanya </span>
-            </li>
+            </Link>
           </ul>
         </section>
       </nav>

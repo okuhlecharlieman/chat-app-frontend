@@ -10,10 +10,10 @@ function ChatWindow() {
         <div class="flex flex-col space-y-2 p-4">
           {/* <!-- Individual chat message --> */}
           <div class="flex items-center self-end rounded-xl rounded-tr bg-blue-500 py-2 px-3 text-white">
-            <p>This is a sender message</p>
+            <p>Ndicela muffins mntase</p>
           </div>
           <div class="flex items-center self-start rounded-xl rounded-tl bg-gray-300 py-2 px-3">
-            <p>This is a receiver message</p>
+            <p>Ndizibhaka ngomso</p>
           </div>
         </div>
       </div>
