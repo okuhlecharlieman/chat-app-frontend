@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import CreateGroup from "./CreateGroup";
 
 import Menu from "./menu";
