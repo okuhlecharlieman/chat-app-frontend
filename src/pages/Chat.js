@@ -5,14 +5,14 @@ import ChatWindow from "../components/ChatWindow";
 
 function Chat() {
   return (
-    <div className="bg-gray-200 min-h-screen">
+    <div className="bg-gray-200 ">
       <Nav className="bg-blue-500  text-white"></Nav>
       <div className="flex">
-        <div className="w-1/4 p-4">
-          <Menu className="bg-green-500 text-white"></Menu>
+        <div className="md:w-1/4 m-2">
+          <Menu className="text-white"></Menu>
         </div>
-        <div className="w-3/4 p-4">
-          <ChatWindow className="bg-yellow-500  text-white"></ChatWindow>
+        <div className=" md:w-3/4 m-2 w-3/5 ">
+          <ChatWindow className="  text-white"></ChatWindow>
         </div>
       </div>
     </div>
