@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Menu({ onItemClick }) {
-  const handleMenuItemClick = (menuItem) => {
-    onItemClick(menuItem); // Call the function from the prop when a menu item is clicked
-  };
+  //   const handleMenuItemClick = (menuItem) => {
+  //     onItemClick(menuItem); // Call the function from the prop when a menu item is clicked
+  //   };
 
   return (
     <div>
@@ -15,21 +15,21 @@ function Menu({ onItemClick }) {
             <Link
               to="/home"
               className="menu-item"
-              onClick={() => handleMenuItemClick("invite")}
+              // onClick={() => handleMenuItemClick("invite")}
             >
               Invite Friend
             </Link>
             <Link
               to="/home/Creategroup"
               className="menu-item"
-              onClick={() => handleMenuItemClick("createGroup")}
+              // onClick={() => handleMenuItemClick("createGroup")}
             >
               Create Group
             </Link>
             <Link
               to="/home/joinGroup"
               className="menu-item"
-              onClick={() => handleMenuItemClick("joinGroup")}
+              // onClick={() => handleMenuItemClick("joinGroup")}
             >
               Join Group
             </Link>

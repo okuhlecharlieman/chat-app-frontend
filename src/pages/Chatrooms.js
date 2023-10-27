@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "../components/navbar";
-import Sidebar from "../components/sidebarAdminProfiles";
+import Sidebar from "../components/sidebarAdminChatrooms";
 
 function home() {
   return (

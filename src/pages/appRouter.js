@@ -6,6 +6,10 @@ import Landing from "./landing";
 import SignInModal from "../components/signInModal";
 import JoinGroupPage from "./JoinGroupPage";
 import CreateGroup from "./CreateGroupPage";
+import Chatrooms from "./Chatrooms";
+import Announcements from "./Announcements";
+import ReportAndFeedback from "./ReportAndFeedback";
+import ReviewAndApproval from "./ReviewAndApproval";
 
 const AppRouter = () => {
   return (
@@ -14,6 +18,16 @@ const AppRouter = () => {
         <Route path="/" element={<Landing />} />
         {/* <Route path="*" element={<FOF />} /> */}
         <Route path="/admin" element={<Admin />} />
+        <Route path="/admin/Announcements" element={<Announcements />} />{" "}
+        <Route path="/admin/Chatrooms" element={<Chatrooms />} />{" "}
+        <Route
+          path="/admin/ReportandFeedback"
+          element={<ReportAndFeedback />}
+        />{" "}
+        <Route
+          path="/admin/ReviewAndApprovals"
+          element={<ReviewAndApproval />}
+        />
         <Route path="/home" element={<Home />} />
         <Route path="/home/Creategroup" element={<CreateGroup />} />
         <Route path="/home/joinGroup" element={<JoinGroupPage />} />

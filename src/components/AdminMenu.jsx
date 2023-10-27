@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Menu({ onItemClick }) {
-  const handleMenuItemClick = (menuItem) => {
-    onItemClick(menuItem); // Call the function from the prop when a menu item is clicked
-  };
+  // const handleMenuItemClick = (menuItem) => {
+  //   onItemClick(menuItem); // Call the function from the prop when a menu item is clicked
+  // };
 
   return (
     <div>
@@ -11,36 +12,41 @@ function Menu({ onItemClick }) {
         <section className="menu-section">
           <span className="menu-title">Admin menu</span>
           <ul className="menu-items">
-            <li
+            <Link
+              to="/admin/ReviewAndApprovals"
               className="menu-item"
-              onClick={() => handleMenuItemClick("review")}
+              // onClick={() => handleMenuItemClick("review")}
             >
               Review and approval
-            </li>
-            <li
+            </Link>
+            <Link
+              to="/admin"
               className="menu-item"
-              onClick={() => handleMenuItemClick("Profiles")}
+              // onClick={() => handleMenuItemClick("Profiles")}
             >
               Profiles
-            </li>
-            <li
+            </Link>
+            <Link
+              to="/admin/ReportandFeedback"
               className="menu-item"
-              onClick={() => handleMenuItemClick("Report")}
+              // onClick={() => handleMenuItemClick("Report")}
             >
               Report and feedback
-            </li>
-            <li
+            </Link>
+            <Link
+              to="/admin/Chatrooms"
               className="menu-item"
-              onClick={() => handleMenuItemClick("ChatRoom")}
+              // onClick={() => handleMenuItemClick("ChatRoom")}
             >
               Chat rooms
-            </li>
-            <li
+            </Link>
+            <Link
+              to="/admin/Announcements"
               className="menu-item"
-              onClick={() => handleMenuItemClick("Announcements")}
+              // onClick={() => handleMenuItemClick("Announcements")}
             >
               Announcements
-            </li>
+            </Link>
           </ul>
         </section>
         <div className="divider my-0"></div>
