@@ -10,6 +10,7 @@ import Chatrooms from "./Chatrooms";
 import Announcements from "./Announcements";
 import ReportAndFeedback from "./ReportAndFeedback";
 import ReviewAndApproval from "./ReviewAndApproval";
+import Chat from "./Chat";
 
 const AppRouter = () => {
   return (
