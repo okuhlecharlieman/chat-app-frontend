@@ -31,6 +31,7 @@ const AppRouter = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/home/Creategroup" element={<CreateGroup />} />
         <Route path="/home/joinGroup" element={<JoinGroupPage />} />
+        <Route path="/Chat" element={<Chat />} />
         <Route path="/signup" element={<SignInModal />} />
       </Routes>
     </Router>
