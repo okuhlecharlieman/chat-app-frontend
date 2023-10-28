@@ -1,7 +1,7 @@
 import React from "react";
 
 import Menu from "./AdminMenu";
-import AdminReportAndFeedback from "./AdminReportAndFeedback";
+import AdminReviewAndApproval from "../components/AdminReviewAndApproval";
 
 function Sidebar() {
   // const [selectedMenuItem, setSelectedMenuItem] = useState("invite"); // Initialize with a default value
@@ -19,7 +19,7 @@ function Sidebar() {
         <div className="hidden md:block divider divider-vertical mx-0 h-96"></div>
         <div className="card max-w-4xl items-center justify-center md:my-0 my-4  overscroll-contain">
           {/* a different component for a specific menu item */}
-          <AdminReportAndFeedback />
+          <AdminReviewAndApproval />
         </div>
       </div>
     </div>

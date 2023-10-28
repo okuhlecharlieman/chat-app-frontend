@@ -13,19 +13,20 @@ function Menu({ onItemClick }) {
           <span className="menu-title">Admin menu</span>
           <ul className="menu-items">
             <Link
-              to="/admin/ReviewAndApprovals"
-              className="menu-item"
-              // onClick={() => handleMenuItemClick("review")}
-            >
-              Review and approval
-            </Link>
-            <Link
               to="/admin"
               className="menu-item"
               // onClick={() => handleMenuItemClick("Profiles")}
             >
               Profiles
             </Link>
+            <Link
+              to="/admin/ReviewAndApprovals"
+              className="menu-item"
+              // onClick={() => handleMenuItemClick("review")}
+            >
+              Review and approval
+            </Link>
+
             <Link
               to="/admin/ReportandFeedback"
               className="menu-item"

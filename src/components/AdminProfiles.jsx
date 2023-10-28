@@ -5,22 +5,38 @@ function AdminProfiles() {
     <div>
       <div class="container mx-auto px-4 sm:px-8">
         <div class="py-8">
-          <div>
-            <h2 class="text-2xl font-semibold leading-tight">Profiles</h2>
+          <div className="md:flex">
+            <h2 className="text-2xl font-semibold leading-tight">Profiles</h2>
+            <div className="flex-grow"></div>
+
+            <div className="">
+              <input
+                className="input py-1.5 my-3"
+                placeholder="Find Users..."
+              />
+              <select class="">
+                <option>All</option>
+                <option>Active</option>
+                <option>Inactive</option>
+                <option>Banned</option>
+                <option>Suspended</option>
+              </select>
+            </div>
           </div>
+
           <div class="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
             <div class="inline-block min-w-full shadow-md rounded-lg overflow-hidden">
               <table class="min-w-full leading-normal">
                 <thead>
                   <tr>
                     <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
-                      Client / Invoice
+                      User / Start date
                     </th>
                     <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
-                      Amount
+                      Email / ID
                     </th>
                     <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
-                      Issued / Due
+                      Status date
                     </th>
                     <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
                       Status
@@ -43,21 +59,25 @@ function AdminProfiles() {
                           <p class="text-gray-900 whitespace-no-wrap">
                             Molly Sanders
                           </p>
-                          <p class="text-gray-600 whitespace-no-wrap">000004</p>
+                          <p class="text-gray-600 whitespace-no-wrap">
+                            {" "}
+                            Sept 28, 2019
+                          </p>
                         </div>
                       </div>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                      <p class="text-gray-900 whitespace-no-wrap">$20,000</p>
-                      <p class="text-gray-600 whitespace-no-wrap">USD</p>
+                      <p class="text-gray-900 whitespace-no-wrap">
+                        {" "}
+                        Molly.Sanders@gmail.com
+                      </p>
+                      <p class="text-gray-600 whitespace-no-wrap"> </p>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <p class="text-gray-900 whitespace-no-wrap">
                         Sept 28, 2019
                       </p>
-                      <p class="text-gray-600 whitespace-no-wrap">
-                        Due in 3 days
-                      </p>
+                      <p class="text-gray-600 whitespace-no-wrap"></p>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <span class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
@@ -65,7 +85,7 @@ function AdminProfiles() {
                           aria-hidden
                           class="absolute inset-0 bg-green-200 opacity-50 rounded-full"
                         ></span>
-                        <span class="relative">Paid</span>
+                        <span class="relative">Active</span>
                       </span>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm text-right">
@@ -96,21 +116,25 @@ function AdminProfiles() {
                           <p class="text-gray-900 whitespace-no-wrap">
                             Michael Roberts
                           </p>
-                          <p class="text-gray-600 whitespace-no-wrap">000003</p>
+                          <p class="text-gray-600 whitespace-no-wrap">
+                            {" "}
+                            Sept 28, 2019
+                          </p>
                         </div>
                       </div>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                      <p class="text-gray-900 whitespace-no-wrap">$214,000</p>
-                      <p class="text-gray-600 whitespace-no-wrap">USD</p>
+                      <p class="text-gray-900 whitespace-no-wrap">
+                        {" "}
+                        MRoberts34@gmail.com
+                      </p>
+                      <p class="text-gray-600 whitespace-no-wrap"> </p>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <p class="text-gray-900 whitespace-no-wrap">
                         Sept 25, 2019
                       </p>
-                      <p class="text-gray-600 whitespace-no-wrap">
-                        Due in 6 days
-                      </p>
+                      <p class="text-gray-600 whitespace-no-wrap"></p>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <span class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
@@ -118,7 +142,7 @@ function AdminProfiles() {
                           aria-hidden
                           class="absolute inset-0 bg-green-200 opacity-50 rounded-full"
                         ></span>
-                        <span class="relative">Paid</span>
+                        <span class="relative">Active</span>
                       </span>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm text-right">
@@ -149,21 +173,25 @@ function AdminProfiles() {
                           <p class="text-gray-900 whitespace-no-wrap">
                             Devin Childs
                           </p>
-                          <p class="text-gray-600 whitespace-no-wrap">000002</p>
+                          <p class="text-gray-600 whitespace-no-wrap">
+                            {" "}
+                            Sept 28, 2019
+                          </p>
                         </div>
                       </div>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                      <p class="text-gray-900 whitespace-no-wrap">$20,000</p>
-                      <p class="text-gray-600 whitespace-no-wrap">USD</p>
+                      <p class="text-gray-900 whitespace-no-wrap">
+                        {" "}
+                        Devin.Childs@gmail.com
+                      </p>
+                      <p class="text-gray-600 whitespace-no-wrap"> </p>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <p class="text-gray-900 whitespace-no-wrap">
                         Sept 14, 2019
                       </p>
-                      <p class="text-gray-600 whitespace-no-wrap">
-                        Due in 2 weeks
-                      </p>
+                      <p class="text-gray-600 whitespace-no-wrap"></p>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <span class="relative inline-block px-3 py-1 font-semibold text-orange-900 leading-tight">
@@ -171,7 +199,7 @@ function AdminProfiles() {
                           aria-hidden
                           class="absolute inset-0 bg-orange-200 opacity-50 rounded-full"
                         ></span>
-                        <span class="relative">Pending</span>
+                        <span class="relative">Banned</span>
                       </span>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm text-right">
@@ -202,21 +230,24 @@ function AdminProfiles() {
                           <p class="text-gray-900 whitespace-no-wrap">
                             Frederick Nicholas
                           </p>
-                          <p class="text-gray-600 whitespace-no-wrap">000001</p>
+                          <p class="text-gray-600 whitespace-no-wrap">
+                            {" "}
+                            Sept 28, 2019
+                          </p>
                         </div>
                       </div>
                     </td>
                     <td class="px-5 py-5 bg-white text-sm">
-                      <p class="text-gray-900 whitespace-no-wrap">$12,000</p>
-                      <p class="text-gray-600 whitespace-no-wrap">USD</p>
+                      <p class="text-gray-900 whitespace-no-wrap">
+                        Mrniceguy20@gmail.com
+                      </p>
+                      <p class="text-gray-600 whitespace-no-wrap"> </p>
                     </td>
                     <td class="px-5 py-5 bg-white text-sm">
                       <p class="text-gray-900 whitespace-no-wrap">
                         Sept 6, 2019
                       </p>
-                      <p class="text-gray-600 whitespace-no-wrap">
-                        Due 3 weeks ago
-                      </p>
+                      <p class="text-gray-600 whitespace-no-wrap"></p>
                     </td>
                     <td class="px-5 py-5 bg-white text-sm">
                       <span class="relative inline-block px-3 py-1 font-semibold text-red-900 leading-tight">
@@ -224,7 +255,7 @@ function AdminProfiles() {
                           aria-hidden
                           class="absolute inset-0 bg-red-200 opacity-50 rounded-full"
                         ></span>
-                        <span class="relative">Overdue</span>
+                        <span class="relative">Suspended</span>
                       </span>
                     </td>
                     <td class="px-5 py-5 bg-white text-sm text-right">
