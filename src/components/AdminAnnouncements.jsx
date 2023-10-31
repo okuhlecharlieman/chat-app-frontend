@@ -9,6 +9,15 @@ function AdminAnnouncements() {
             Announcements
           </h2>
           <div className="flex-grow"></div>
+          <div className="">
+            <input className="input py-1.5 my-3" placeholder="Find Users..." />
+            <select class="">
+              <option>Audiance</option>
+              <option>Public</option>
+              <option>Private</option>
+              <option>Both</option>
+            </select>
+          </div>
         </div>
 
         <div class="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
