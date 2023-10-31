@@ -20,7 +20,7 @@ function AdminAnnouncements() {
               type="text"
               id="schedule"
               name="schedule"
-              ref={scheduleInputRef}
+              //   ref={scheduleInputRef}
               className="w-full px-4 py-2 rounded border focus:outline-none focus:ring focus:border-blue-500"
               required
             />
