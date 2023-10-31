@@ -24,7 +24,7 @@ function AdminAnnouncements() {
               className="w-full px-4 py-2 rounded border focus:outline-none focus:ring focus:border-blue-500"
               required
             />
-            <select class="">
+            <select class="m-3">
               <option>Audiance</option>
               <option>Public</option>
               <option>Private</option>
