@@ -10,7 +10,20 @@ function AdminAnnouncements() {
           </h2>
           <div className="flex-grow"></div>
           <div className="">
-            <input className="input py-1.5 my-3" placeholder="Find Users..." />
+            <label
+              htmlFor="schedule"
+              className="block text-gray-600 text-sm font-medium mb-2"
+            >
+              Schedule
+            </label>
+            <input
+              type="text"
+              id="schedule"
+              name="schedule"
+              ref={scheduleInputRef}
+              className="w-full px-4 py-2 rounded border focus:outline-none focus:ring focus:border-blue-500"
+              required
+            />
             <select class="">
               <option>Audiance</option>
               <option>Public</option>
