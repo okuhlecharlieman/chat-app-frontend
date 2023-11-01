@@ -61,7 +61,10 @@ function AdminAddUser() {
                       <a href="/">Remember me</a>
                     </div>
                     <label className="form-label">
-                      <a className="link link-underline-hover link-primary text-sm">
+                      <a
+                        href="/"
+                        className="link link-underline-hover link-primary text-sm"
+                      >
                         Forgot your password?
                       </a>
                     </label>
