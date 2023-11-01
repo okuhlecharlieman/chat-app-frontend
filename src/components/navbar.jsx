@@ -38,7 +38,7 @@ function navbar() {
                   />
                 </label>
                 <div className="dropdown-menu dropdown-menu-bottom-left">
-                  <a href="/home" className="dropdown-item text-sm">
+                  <a href="/EditProfile" className="dropdown-item text-sm">
                     Profile
                   </a>
                   <a

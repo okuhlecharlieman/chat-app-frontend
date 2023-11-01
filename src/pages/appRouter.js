@@ -11,11 +11,13 @@ import Announcements from "./Announcements";
 import ReportAndFeedback from "./ReportAndFeedback";
 import ReviewAndApproval from "./ReviewAndApproval";
 import Chat from "./Chat";
+import EditProfile from "./EditProfilePage";
 
 const AppRouter = () => {
   return (
     <Router>
       <Routes>
+        <Route path="/EditProfile" element={<EditProfile />} />
         <Route path="/" element={<Landing />} />
         {/* <Route path="*" element={<FOF />} /> */}
         <Route path="/admin" element={<Admin />} />
