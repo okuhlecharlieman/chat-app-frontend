@@ -22,7 +22,7 @@ function AdminProfiles() {
                 <option>Banned</option>
                 <option>Suspended</option>
               </select>
-              <AdminAddUser />
+              {/* <AdminAddUser /> */}
             </div>
           </div>
 
