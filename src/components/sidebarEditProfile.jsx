@@ -2,7 +2,7 @@ import React from "react";
 
 import EditProfile from "./EditProfile";
 import Menu from "./menu";
-import AdminMenu from "./AdminMenu";
+// import AdminMenu from "./AdminMenu"; check user type
 
 function Sidebar() {
   // const [selectedMenuItem, setSelectedMenuItem] = useState("invite"); // Initialize with a default value
