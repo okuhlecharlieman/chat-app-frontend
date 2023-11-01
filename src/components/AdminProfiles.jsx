@@ -24,6 +24,7 @@ function AdminProfiles() {
                   <option>Banned</option>
                   <option>Suspended</option>
                 </select>
+                <div className="flex-grow"></div>
                 <AdminAddUser />
               </div>
             </div>
