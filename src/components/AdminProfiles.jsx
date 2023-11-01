@@ -1,5 +1,5 @@
 import React from "react";
-// import AdminAddUser from "./AdminAddUser";
+import AdminAddUser from "./AdminAddUser";
 
 function AdminProfiles() {
   return (
@@ -22,7 +22,7 @@ function AdminProfiles() {
                 <option>Banned</option>
                 <option>Suspended</option>
               </select>
-              {/* <AdminAddUser /> */}
+              <AdminAddUser />
             </div>
           </div>
 

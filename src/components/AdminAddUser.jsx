@@ -4,16 +4,16 @@ function AdminAddUser() {
   return (
     <div>
       <article>
-        <label className="btn btn-primary" htmlFor="modal-1">
+        <label className="btn btn-primary" htmlFor="modal-7">
           Add User
         </label>
 
-        <input className="modal-state" id="modal-1" type="checkbox" />
+        <input className="modal-state" id="modal-7" type="checkbox" />
         <div className="modal">
-          <label className="modal-overlay" htmlFor="modal-1"></label>
+          <label className="modal-overlay" htmlFor="modal-7"></label>
           <div className="modal-content flex w-full flex-col gap-5 p-7">
             <label
-              htmlFor="modal-1"
+              htmlFor="modal-7"
               className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
             >
               ✕
