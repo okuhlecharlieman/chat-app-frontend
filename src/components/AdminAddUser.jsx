@@ -58,7 +58,7 @@ function AdminAddUser() {
                   <div className="form-control justify-between">
                     <div>
                       <input type="checkbox" className="checkbox" />
-                      <a href="#">Remember me</a>
+                      <a href="/">Remember me</a>
                     </div>
                     <label className="form-label">
                       <a className="link link-underline-hover link-primary text-sm">
@@ -148,7 +148,7 @@ function AdminAddUser() {
                 <span>Don't have an account?</span>
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="/"
                   className="link link-primary text-xs"
                 >
                   Sign up
