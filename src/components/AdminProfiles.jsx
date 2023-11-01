@@ -1,5 +1,5 @@
 import React from "react";
-import AdminAddUser from "./AdminAddUser";
+// import AdminAddUser from "./AdminAddUser";
 
 function AdminProfiles() {
   return (
