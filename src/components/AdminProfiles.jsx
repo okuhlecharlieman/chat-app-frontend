@@ -15,14 +15,17 @@ function AdminProfiles() {
                 className="input py-1.5 my-3"
                 placeholder="Find Users..."
               />
-              <select class="">
-                <option>All</option>
-                <option>Active</option>
-                <option>Inactive</option>
-                <option>Banned</option>
-                <option>Suspended</option>
-              </select>
-              <AdminAddUser />
+              <div className="flex">
+                {" "}
+                <select class="">
+                  <option>All</option>
+                  <option>Active</option>
+                  <option>Inactive</option>
+                  <option>Banned</option>
+                  <option>Suspended</option>
+                </select>
+                <AdminAddUser />
+              </div>
             </div>
           </div>
 
